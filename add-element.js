@@ -1,8 +1,8 @@
 // create a new div element
-const newDiv = document.createElement("div");
+const newDiv = document.createElement("h2");
 
 // and give it some content
-const newContent = document.createTextNode("Hi there and greetings!");
+const newContent = document.createTextNode("Hi there, I can use JS to change the rendered contents of a web page!");
 
 // add the text node to the newly created div
 newDiv.appendChild(newContent);
